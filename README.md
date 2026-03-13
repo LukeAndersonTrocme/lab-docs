@@ -25,4 +25,4 @@ The lab's research involves human genealogical and health data. Responsible data
 
 ---
 
-*Maintained by [PI Name], Université de Montréal.*
+*Maintained by Luke Anderson-Trocmé, Université de Montréal.*
