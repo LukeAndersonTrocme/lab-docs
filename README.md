@@ -1,6 +1,6 @@
 # Lab Docs
 
-Welcome to the lab documentation repository for **[Lab Name]** at the Université de Montréal. This repo is the canonical public reference for lab onboarding, data practices, compute resources, and curated reading.
+Welcome to the lab documentation repository for the PopGen Lab at the Université de Montréal. This repo is the canonical public reference for lab onboarding, data practices, compute resources, and curated reading.
 
 If you are a new lab member, start with the [onboarding guide](onboarding/README.md).
 
