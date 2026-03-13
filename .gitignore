@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+*.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Thumbnails
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Obsidian
+.obsidian/
