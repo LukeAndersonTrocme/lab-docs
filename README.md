@@ -13,6 +13,8 @@ If you are a new lab member, start with the [onboarding guide](onboarding/README
 | [Onboarding](onboarding/README.md) | Getting started as a new lab member |
 | [Data Management](data-management/README.md) | Handling sensitive research data responsibly |
 | [Compute Resources](compute/README.md) | Setting up and using the Digital Research Alliance (Compute Canada) clusters |
+| [AI Tools](ai-tools/README.md) | Using Claude AI in research workflows |
+| [Lab Skills](skills/README.md) | Claude Code skills for the lab |
 | [Reading List](reading-list/README.md) | Curated papers and resources for the lab's research areas |
 
 ---
