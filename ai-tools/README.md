@@ -18,7 +18,7 @@ This matters especially in research. The hypothesis must be yours. The interpret
 
 ### 1. Claude Pro (Web)
 
-You have been set up with a Claude Pro account at [claude.ai](https://claude.ai). Use your lab credentials. The web interface is good for writing, brainstorming, and conversations where you want a clean session without file access.
+Create an account at [claude.ai](https://claude.ai) using your institutional email address. Once your account is active, contact the PI to arrange billing — the lab purchasing card covers the Claude Pro subscription (~USD 20/month) per the subscription agreement you will sign as part of lab onboarding. The web interface is good for writing, brainstorming, and conversations where you want a clean session without file access.
 
 ### 2. Claude Code (CLI + VSCode)
 
@@ -53,7 +53,7 @@ Claude sometimes produces code that looks correct but has subtle bugs. Always te
 
 Use the `/brainstorming` skill (from Superpowers) for any non-trivial new piece of work. It follows a structured process: understand the goal, explore approaches, present a design, write a spec, and only then move to implementation. This prevents spending a day building the wrong thing.
 
-The `/fleshout` skill is useful for quick idea sprints — 10–15 minutes to develop a half-formed idea before the momentum fades. It works well immediately after a lab meeting or when something clicks during reading.
+The `/fleshout` skill (included in `skills/`) is useful for quick idea sprints — 10–15 minutes to develop a half-formed idea before the momentum fades. It works well immediately after a lab meeting or when something clicks during reading.
 
 For larger development work, the full workflow is: `/brainstorming` → `/writing-plans` → `/executing-plans`. Each step hands off to the next with a clear artifact (spec, then plan, then implementation).
 
@@ -94,7 +94,7 @@ Claude Code runs on your machine and can read files, write files, and execute co
 - **Network access** — Claude can make network requests. Be aware of what it is accessing, particularly if you are working near any sensitive files.
 - **Never use `--dangerously-skip-permissions`** unless you fully understand the context. This flag disables all permission prompts.
 
-If something Claude did surprises you, stop the session. Run `git diff` to review all changes, and `git checkout` to revert anything you do not want. This is exactly why frequent commits matter.
+If something Claude did surprises you, stop the session. Run `git diff` to review all changes, and `git restore <file>` to revert anything you do not want. This is exactly why frequent commits matter.
 
 ---
 
